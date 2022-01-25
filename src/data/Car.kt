@@ -1,8 +1,8 @@
 package data
 
-class Car {
-    var brand:String =""
-    var year:Int= 2020
+class Car (paramBrad:String, paramYear:Int = 2020){
+    var brand:String = paramBrad
+    var year:Int= paramYear
 
 
 }
