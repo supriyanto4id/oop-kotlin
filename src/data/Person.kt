@@ -5,6 +5,18 @@ class Person {
     var middleName:String? = null
     var lastname:String =""
 
+    fun sayHello(name:String){
+        println("hallo $name, my name is $firstName")
+
+    }
+
+    fun run(){
+        println("i m run")
+    }
+
+    fun getFullName(){
+         println("Hallo my full name is $firstName $middleName , $lastname")
+    }
 }
 
 fun main(){

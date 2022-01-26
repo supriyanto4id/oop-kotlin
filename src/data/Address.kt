@@ -10,8 +10,5 @@ class Address {
         street = paramStreet
         city = paramCity
     }
-    constructor(paramStreet: String)
-            : this(paramStreet){
-        street =paramStreet
-    }
+
 }
